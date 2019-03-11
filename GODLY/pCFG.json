@@ -1,0 +1,33 @@
+{
+	"email": {
+		"domain": "X-X-X-X-X",
+		"inbox": "X-X-X-X-X",
+		"password": "X-X-X-X-X",
+		"port": 143,
+		"tls": false,
+		"method": "imap",
+		"httpService": {
+			"domain": "aio.email"
+		}
+	},
+	"captcha": {
+		"apikey": "http://Captcha.Ninja",
+		"version": "V2"
+	},
+	"proxy": {
+		"enabled": true,
+		"getproxylist": {
+			"apikey": "http://GetProxyList.com",
+			"countryCodes": ["AX", "AR", "AU", "AT", "BH", "BE", "BR", "CM", "CA", "CN", "CR", "CU", "EG", "FR", "DE", "HK", "IN", "IT", "JP", "KW", "MY", "MX", "NL", "PY", "PT", "RU", "SN", "SG", "ES", "TH", "US", "ZW"]
+		},
+		"threshold": 5,
+		"method": "file",
+		"fileName": "proxy_list.txt"
+	},
+	"account": {
+		"free_licenses": [730, 570],
+		"create_login_batch": false
+	},
+	"totalAccountToBeCreate": 1000000,
+	"usernamePasswordFile": "usernamePassword.txt"
+}

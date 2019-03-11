@@ -1,0 +1,16 @@
+{
+	"name": "GODLY",
+	"version": "1.9.9",
+	"description": "EOL",
+	"main": "GODLY20.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "F0pd00dle",
+	"dependencies": {
+		"express": "4.16.3",
+		"mail-notifier": "0.5.0",
+		"request": "2.87.0",
+		"socket.io": "2.1.1"
+	}
+}
